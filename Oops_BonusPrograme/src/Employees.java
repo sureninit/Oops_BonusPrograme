@@ -7,6 +7,7 @@ public class Employees {
 	int salary;
 	int bonus;
 	int phone;
+	String nickname;
 	
 	public void bonusforEmployees() {
 		System.out.println("Employee"+" "+name+" "+"gets"+" "+"bonus"+":"+salary*20/100);
